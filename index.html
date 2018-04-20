@@ -1,0 +1,171 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lisbeth Flores Olivares</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScrip-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!--  <script src="js/acciones.js"></script> -->
+<script src="phonegap.js"></script>
+
+
+</head>
+
+<body>
+
+<div data-role="page"id="Principal"data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>Datos personales del alumno</h1>
+  </div>
+    <div data-role="main" class="ui-content">
+    <div date-role="collapsible" data-content-theme="false">
+    <h1>Foto de perfil</h1>
+    <div>
+    <p>Esta es mi imagen de perfil</p>
+    <br>
+   </div>
+   <div>
+      <img src="imagenes/IMG_20170915_150328036.jpg" width="50%" height="50%">
+    </div>
+   </div>
+   </div>
+   <div>
+   <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Datos generales</h2> 
+    <p>Se muestra el nombre</p>
+    </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Fecha de nacimiento</h2>
+    <p>Se muestra el dia, mes y año de nacimiento</p>
+    </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Domicilio</h2>
+    <p>Muestra domicilio</p>
+    </a>
+     </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Deporte favorito</h2>
+    <p>muestra el deporte que mas le agrada al alumno</p>
+    </a>
+     </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Otros gustos e intereses</h2>
+    <p>Muestra otro gusto del alumno</p>
+    </a>
+    </li>
+    </ul>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+     <div>
+       <img src="imagenes/persona_azul.png" width="46" height="46">
+     </div>
+     <div>
+     <h4>Aplicacion Dos</h4>
+     <h4>Lisbeth Flores Olivares</h4>
+    </div>
+   </div>
+   </div>
+   <div data-role="page" id="pagina1" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Nombre</h1>
+      </div>
+      <div date-role="contet" align="center">
+    <div>
+      <h2>Flores Olivares Lisbeth</h2>
+     </div>
+    </div>
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+     <div>
+      <img src="imagenes/persona_azul.png" width="46" height="46">
+     </div>
+      <h4>Aplicacion Dos, LFO</h4>
+     </div>
+    </div>
+    
+    
+    <div data-role="page" id="pagina2" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Fecha de nacimiento</h1>
+      </div>
+      <div data-role="content" align="center">
+      <div>
+        <h2>26 de agosto del 2001</h2></div>
+        </div>
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+        <img src="imagenes/persona_azul.png" width="46" height="46">
+        </div>
+         <h4>Aplicacion Dos,LFO</h4>
+         </div>
+          </div>
+          
+          
+      <div data-role="page" id="pagina3" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Domicilio</h1>
+      </div>
+      <div date-role="contet" align="center">
+    <div>
+      <h2>San Felix Almazan</h2>
+     </div>
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+     </div>
+      <img src="imagenes/persona_azul.png" width="46" height="46">
+     </div>
+      <h4>Aplicacion Dos, LFO</h4>
+     </div>
+    </div> 
+    
+    
+     <div data-role="page" id="pagina4" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Deporte favorito</h1>
+      </div>
+       <div date-role="contet" align="center">
+       <div>
+        <h2>Escribir el deporte favorito y pegar una foto</h2>
+      <img src="<img src="imagenes/balon.png">" width="50%" height="50%">
+      </div>
+      </div>
+      <div date-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+      <img src="imagenes/persona_azul.png" width="46" height="46">
+      </div>
+       <h4>Aplicacion Dos, LFO</h4>
+      </div>
+      </div>
+      
+      
+      <div data-role="page" id="pagina5" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>DUSTOS E INTERESES</h1>
+      </div>
+       <div date-role="contet" align="center">
+       <div>
+        <h2>Escribir otro gusto e interes</h2></div>
+      <img src="<img src="imagenes/musica.png">" width="50%" height="50%">
+      </div>
+      <div date-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+      <img src="imagenes/persona_azul.png" width="46" height="46">
+      </div>
+       <h4>Aplicacion Dos, LFO</h4>
+       </div>
+      </div>
+     </body>
+     </html> 
